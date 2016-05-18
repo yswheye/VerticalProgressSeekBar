@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="charge_text_green">#00AC81</color>
+    <color name="charge_text_blue">#00CFDC</color>
+    <color name="charge_text_red">#D80963</color>
+    <color name="charge_text_gray">#D0D0D0</color>
+    
+</resources>

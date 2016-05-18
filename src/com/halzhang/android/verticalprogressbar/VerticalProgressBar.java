@@ -34,7 +34,6 @@ public class VerticalProgressBar extends ProgressBar {
 	@Override
 	protected synchronized void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 		super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-//		setMeasuredDimension(getMeasuredHeight(), getMeasuredWidth());
 	}
 	
 	@Override

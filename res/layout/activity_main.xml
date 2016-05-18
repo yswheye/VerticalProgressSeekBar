@@ -3,23 +3,33 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="horizontal" >
-    
+
     <com.halzhang.android.verticalprogressbar.VerticalSeekBar
         android:id="@+id/verticalSeekBar"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
         android:max="1000"
-        android:progress="2"
         android:maxWidth="50dip"
-        android:minWidth="50dip" />
-    
+        android:minWidth="50dip"
+        android:progress="2" />
+
     <com.halzhang.android.verticalprogressbar.VerticalProgressBar
-        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_margin="20dp"
         android:id="@+id/verticalProgressBar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:max="1000"
-        android:progress="500"
-        android:maxWidth="10dip"
-        android:minWidth="10dip" />
+        android:max="100"
+        android:maxWidth="100dip"
+        android:minWidth="100dip"
+        android:progress="50"
+        android:progressDrawable="@drawable/charge_progress_drawable_red" />
+    
+    <TextView 
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:text="hgksg"/>
+
 </LinearLayout>
